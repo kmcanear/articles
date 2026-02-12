@@ -1,0 +1,9 @@
+title: "Keith McAnear"
+description: "Thoughts on AI security, cloud architecture, and the intersection of enterprise security with emerging AI capabilities."
+url: "https://kmcanear.github.io"
+baseurl: "/articles"
+theme: minima
+markdown: kramdown
+permalink: /:year/:month/:day/:title
+plugins:
+  - jekyll-seo-tag
