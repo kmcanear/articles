@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} — Keith McAnear</title>
+  <meta name="description" content="{{ page.description | default: page.excerpt | strip_html | truncate: 160 }}">
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:description" content="{{ page.description | default: page.excerpt | strip_html | truncate: 160 }}">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta name="author" content="Keith McAnear">
+  <link rel="stylesheet" href="{{ '/articles/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header>
+    <nav><a href="{{ '/articles/' | relative_url }}">← All Articles</a></nav>
+  </header>
+  <main>
+    <article>
+      <h1>{{ page.title }}</h1>
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
+      {{ content }}
+    </article>
+  </main>
+  <footer>
+    <p>Keith McAnear · AI Security & Cloud Architecture</p>
+  </footer>
+</body>
+</html>
