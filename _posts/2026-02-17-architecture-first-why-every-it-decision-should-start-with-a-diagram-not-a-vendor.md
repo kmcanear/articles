@@ -4,8 +4,6 @@ description: "A case for putting architecture, strategy, and business requiremen
 date: 2026-02-17
 ---
 
-![Architecture First — Start with the diagram, not the vendor.](/assets/images/architecture-first-header.png)
-
 Over the course of my career, I've walked into more meetings than I can count where the problem and solution are being discussed — and I'm arriving at the tail end of the process. A new platform, a new piece of software, a new appliance. The vendor is already decided. In some cases, the solution has been built and is nearing production. My chair is barely warm before someone asks me to "take a look."
 
 The questions I always lead with are the same: *"What is the strategy?"* and *"What are the requirements?"* — from the client or end users, whether internal or external.
