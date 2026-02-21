@@ -4,6 +4,10 @@ description: "We spent decades teaching that the weakest link in security is the
 date: 2026-02-21
 ---
 
+*It took me five prompts to extract a patient's protected health information from an AI system designed to guard it. No exploit kit. No zero-day. Just a conversation.*
+
+---
+
 Hollywood loves to show hacking as some genius typing furiously into a terminal, plugging a mysterious device into a server rack, or watching green text cascade down a screen before triumphantly declaring, "We're in." But most security professionals know the truth: the majority of successful breaches don't come from cracking encryption or zero-day exploits. They come from social engineering — a well-crafted email, a convincing phone call, a manipulated human.
 
 We've spent decades teaching that the weakest link in security is the human.
